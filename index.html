@@ -5,38 +5,164 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css">
     <title>Project-mtf</title>
 </head>
 <body>
 <!-- Start making of website -->
     <section class="main">
     <!--  Start of header   -->
+        <input type="radio" id="open" name="menu">
+        <label for="open">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </label>
+        <input type="radio" name="menu" id="close">
         <section class="header">
 <!--  Start header 1/2         -->
-            <section>
+            <label for="close">
+                <i class="fa fa-window-close" aria-hidden="true"></i>
+            </label>
+            <section class="menuTop" >
                 <section>
                     <div>
+                        <img src="images/phone-logo-header.png" alt="phone">
                         <span>09125532610</span>
                     </div>
                     <div>
-                        <span>parsahmmmm@gmail.com</span>
+                        <img src="images/email-logo-header.png" alt="email">
+                        <span>parsahmm@gmail.com</span>
                     </div>
                 </section>
                 <section>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <ul>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Whishlist</a></li>
+                        <li><a href="#">Cart</a></li>
+                        <li><a href="#">Checkout</a></li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-lock" aria-hidden="true"></i>
+                                Login\Register
+                            </a>
+                        </li>
+                    </ul>
                 </section>
             </section>
 <!--  End header 1/2         -->
-            <section>
-
+<!--  Start of  header 2/2         -->
+            <section class="menuBottom" >
+                <div>
+                    <h1>HYAPE</h1>
+                </div>
+                <div>
+                    <nav>
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">ABOUT US</a></li>
+                            <li><a href="#">PAGE</a></li>
+                            <li><a href="#">SHOP</a></li>
+                            <li><a href="#">BLOG</a></li>
+                            <li><a href="#">CONTACT US</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <div>
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <span>CART - $0</span>
+                    </div>
+                    <div>
+                        <img src="images/lock-logo-menuBottom.png" alt="lock">
+                    </div>
+                </div>
             </section>
+ <!--  end of  header 2/2         -->
         </section>
      <!--  End of header   -->
+        <!-- Start of swiper   -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/swiper-1.avif" alt="swiper1">
+                    <div class="RoSwipper1">
+                        <span>DRESSES
+                            <span class="Are" >ARE</span>
+                            GOOD
+                            <br>
+                            BUT OUR DRESSES ARE <span class="best" >BEST</span>
 
+                        </span>
+                        <br>
+                        <span>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque error pariatur repudiandae velit voluptates? Assumenda commodi dolore esse facere illum laborum neque numquam officiis qui, saepe sequi vel voluptatum? Sapiente.
+                        </span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/swiper-2.avif" alt="swiper2">
+                    <div class="RoSwipper1">
+                        <span>DRESSES
+                            <span class="Are" >ARE</span>
+                            GOOD
+                            <br>
+                            BUT OUR DRESSES ARE <span class="best" >BEST</span>
+
+                        </span>
+                        <br>
+                        <span>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque error pariatur repudiandae velit voluptates? Assumenda commodi dolore esse facere illum laborum neque numquam officiis qui, saepe sequi vel voluptatum? Sapiente.
+                        </span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/swiper-3.avif" alt="swiper3">
+                    <div class="RoSwipper1">
+                        <span>DRESSES
+                            <span class="Are" >ARE</span>
+                            GOOD
+                            <br>
+                            BUT OUR DRESSES ARE <span class="best" >BEST</span>
+
+                        </span>
+                        <br>
+                        <span>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque error pariatur repudiandae velit voluptates? Assumenda commodi dolore esse facere illum laborum neque numquam officiis qui, saepe sequi vel voluptatum? Sapiente.
+                        </span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/swiper-4.avif" alt="swiper4">
+                    <div class="RoSwipper1">
+                        <span>DRESSES
+                            <span class="Are" >ARE</span>
+                            GOOD
+                            <br>
+                            BUT OUR DRESSES ARE <span class="best" >BEST</span>
+
+                        </span>
+                    <br>
+                    <span>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque error pariatur repudiandae velit voluptates? Assumenda commodi dolore esse facere illum laborum neque numquam officiis qui, saepe sequi vel voluptatum? Sapiente.
+                        </span>
+                </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="node_modules/swiper/swiper-bundle.min.js"></script>
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                pagination: {
+                    el: ".swiper-pagination",
+                },
+            });
+        </script>
+        <!-- End of swiper   -->
     </section>
 <!-- Start making of website -->
 </body>

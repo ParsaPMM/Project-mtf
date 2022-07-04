@@ -1,0 +1,235 @@
+@media only screen and (min-width: 990px) and (max-width: 1200px){
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+    section.main{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    /************************ Start of header     ******************************************/
+    section.header{
+        width: 100%;
+        height: 140px;
+
+    }
+
+    /*****  Header 1/2  ******/
+    section.header>section.menuTop{
+        width: 100%;
+        height: 50px;
+        background-color:#00a2e8;
+        display: flex;
+    }
+    section.header>section.menuTop>section:nth-of-type(1){
+        width: 40%;
+        height: inherit;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    section.header>section.menuTop>section:nth-of-type(1)>div:nth-of-type(1){
+        width: 50%;
+        height: inherit;
+        line-height: 50px;
+        text-align: end;
+        color: white;
+
+    }
+    section.header>section.menuTop>section:nth-of-type(1)>div:nth-of-type(1)>img{
+        vertical-align:sub;
+    }
+
+    section.header>section.menuTop>section:nth-of-type(1)>div:nth-of-type(2){
+        width: 60%;
+        height: inherit;
+        line-height: 50px;
+        color: white;
+        margin-left: 10px;
+
+    }
+
+    /*****  ENd  Header 1/2  ******/
+    /*****  Start of  Header 2/2  ******/
+    section.header>section.menuTop>section:nth-of-type(2){
+        width: 70%;
+        height: 50px;
+    }
+    section.header>section.menuTop>section:nth-of-type(2)>ul{
+        list-style: none;
+        width: 100%;
+        height: inherit;
+        display: flex;
+        justify-content: flex-end;
+
+    }
+    section.header>section.menuTop>section:nth-of-type(2)>ul>li{
+        width: auto;
+        height: auto;
+        line-height: 50px;
+        box-sizing: border-box;
+        padding-left: 30px;
+    }
+    section.header>section.menuTop>section:nth-of-type(2)>ul>li:nth-of-type(5){
+        margin-right: 130px;
+    }
+    section.header>section.menuTop>section:nth-of-type(2)>ul>li>a{
+        cursor: pointer;
+        color: #ffff;
+        transition: all 300ms linear;
+    }
+    section.header>section.menuTop>section:nth-of-type(2)>ul>li>a:hover{
+        color: darkgray;
+    }
+    /*****  Start of  Header 2/2  ******   */
+    section.header>section.menuBottom{
+        width: 100%;
+        height: 90px;
+        background-color:#ffff;
+        display: flex;
+    }
+    section.header>section.menuBottom>div:nth-of-type(1){
+        width: 20%;
+        height: inherit;
+        line-height: 90px;
+        text-align: end;
+    }
+    section.header>section.menuBottom>div:nth-of-type(1)>h1{
+        font-size: 30px;
+        font-family: "Myriad Pro";
+        color: black;
+    }
+    section.header>section.menuBottom>div:nth-of-type(1)>h1::first-letter{
+        color: #00a2e8;
+    }
+    section.header>section.menuBottom>div:nth-of-type(2){
+        width: 60%;
+        height: inherit;
+    }
+    section.header>section.menuBottom>div:nth-of-type(2)>nav>ul{
+        width: 100%;
+        height: 90px;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    section.header>section.menuBottom>div:nth-of-type(2)>nav>ul>li{
+        width: auto;
+        height: 90px;
+        line-height: 45px;
+        padding-right: 25px;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    section.header>section.menuBottom>div:nth-of-type(2)>nav>ul>li>a{
+        display: block;
+        height: 45px;
+        width: auto;
+        color: black;
+        font-weight: bold;
+        font-size: 14px;
+        transition: all 200ms linear;
+    }
+    section.header>section.menuBottom>div:nth-of-type(2)>nav>ul>li>a:hover{
+        background-color: lightgray;
+    }
+    section.header>section.menuBottom>div:nth-of-type(2)>nav>ul>li:nth-of-type(1)>a{
+        color: #00a2e8;
+    }
+    section.header>section.menuBottom>div:nth-of-type(3){
+        width: 20%;
+        height: inherit;
+        display: flex;
+    }
+    section.header>section.menuBottom>div:nth-of-type(3)>div:nth-of-type(1){
+        width:auto;
+        height: auto;
+        line-height: 90px;
+    }
+    section.header>section.menuBottom>div:nth-of-type(3)>div:nth-of-type(2){
+        width:auto;
+        height: auto;
+        line-height: 99px;
+        margin-left:5px;
+    }
+    section.header>section.menuBottom>div:nth-of-type(3)>div:nth-of-type(2)>img{
+        width: 25px;
+        height: 25px;
+    }
+    /**********  End of header 2/2    ************/
+
+    /********* Hidding menu bottom   ************/
+    input#open{
+        display: none;
+    }
+    label[for = open]{
+        display: none;
+    }
+    input#close{
+        display: none;
+    }
+    label[for = close]{
+        display: none;
+    }
+    /********* Hidding menu bottom   ************/
+    /************************ end of header     ******************************************/
+
+
+    /********************************** Start of Swiper    *****************************************/
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 770px;
+        object-fit: cover;
+    }
+    div.RoSwipper1{
+        width: 80%;
+        position:absolute;
+    }
+    div.RoSwipper1>span:nth-of-type(1){
+        color: white;
+        font-size: 72px;
+    }
+    div.RoSwipper1>span>span.Are{
+        color: #00a2e8;
+    }
+    div.RoSwipper1>span>span.best{
+        color: #00a2e8;
+    }
+    div.RoSwipper1>span:nth-of-type(2){
+        font-size: 17px;
+        line-height: 40px;
+        color: white;
+    }
+    /********************************** End of Swiper    *****************************************/
+
+    /************************ end of header     ******************************************/
+}

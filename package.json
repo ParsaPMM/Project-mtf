@@ -9,6 +9,8 @@
   "author": "Parsa Moshirpoor",
   "license": "MIT",
   "dependencies": {
-    "live-server": "^1.2.2"
+    "font-awesome": "^4.7.0",
+    "live-server": "^1.2.2",
+    "swiper": "^8.2.6"
   }
 }
