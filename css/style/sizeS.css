@@ -219,4 +219,123 @@
         color: white;
     }
     /********************************** End of Swiper    *****************************************/
+
+
+    /******************   Start of About us   ************************/
+    section.aboutUS{
+        width: 100%;
+        height: 170px;
+        position: absolute;
+        top:800px;
+    }
+    section.aboutUS>h1{
+        text-align: center;
+        line-height: 170px;
+        font-size: 72px;
+    }
+    section.aboutUS>h1>span{
+        color: #00a2e8;
+    }
+    section.about{
+        width: 100%;
+        height:365px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: absolute;
+        top:1000px;
+    }
+    section.about>div{
+        width: 40%;
+        height: auto;
+        padding-left: 10px;
+        padding-top: 25px;
+    }
+    section.about>div:nth-of-type(1){
+        text-align: center;
+    }
+    section.about>div:nth-of-type(1)>span{
+        display: block;
+        font-size: 75px;
+        box-sizing: border-box;
+        padding-bottom: 35px;
+        color: #555252;
+    }
+    section.about>div:nth-of-type(1)>p{
+        box-sizing: border-box;
+        padding-top: 15px;
+        line-height: 25px;
+        color:#555252;
+    }
+
+
+    section.about>div:nth-of-type(1)>h3{
+        color: #555252;
+
+    }
+
+    section.about>div:nth-of-type(2){
+        text-align: center;
+        color: #555252;
+    }
+    section.about>div:nth-of-type(2)>span{
+        display: block;
+        font-size: 75px;
+        box-sizing: border-box;
+        padding-bottom: 35px;
+    }
+    section.about>div:nth-of-type(2)>h3{
+        color:#555252;
+    }
+    section.about>div:nth-of-type(2)>p{
+        box-sizing: border-box;
+        padding-top: 15px;
+        line-height: 25px;
+        color:#555252;
+    }
+    section.about>div:nth-of-type(3){
+        text-align: center;
+        color: #555252;
+    }
+    section.about>div:nth-of-type(3)>span{
+        display: block;
+        font-size: 75px;
+        box-sizing: border-box;
+        padding-bottom: 35px;
+    }
+    section.about>div:nth-of-type(3)>h3{
+        color:#555252;
+    }
+    section.about>div:nth-of-type(3)>p{
+        box-sizing: border-box;
+        padding-top: 15px;
+        line-height: 25px;
+        color:#555252;
+    }
+    section.about>div:nth-of-type(4){
+        text-align: center;
+        color: #555252;
+    }
+    section.about>div:nth-of-type(4)>span{
+        display: block;
+        font-size: 75px;
+        box-sizing: border-box;
+        padding-bottom: 35px;
+    }
+    section.about>div:nth-of-type(4)>h3{
+        color:#555252;
+    }
+    section.about>div:nth-of-type(4)>p{
+        box-sizing: border-box;
+        padding-top: 15px;
+        line-height: 25px;
+        color:#555252;
+    }
+    section.about>div:nth-of-type(1)>span:hover,section.about>div:nth-of-type(2)>span:hover,section.about>div:nth-of-type(3)>span:hover,section.about>div:nth-of-type(4)>span:hover,section.about>div:nth-of-type(1)>h3:hover,section.about>div:nth-of-type(2)>h3:hover,section.about>div:nth-of-type(3)>h3:hover,section.about>div:nth-of-type(4)>h3:hover{
+        color: #00a2e8;
+        cursor:pointer;
+    }
+
+
+    /******************   End of About us   ************************/
 }

@@ -1,35 +1,40 @@
 @media only screen and (min-width: 1200px) {
-    *{
+    * {
         margin: 0;
         padding: 0;
         text-decoration: none;
     }
-    section.main{
+
+    section.main {
         width: 100%;
         height: auto;
         position: relative;
     }
+
     /************************ Start of header     ******************************************/
-    section.header{
+    section.header {
         width: 100%;
         height: 140px;
 
     }
+
     /*****  Header 1/2  ******/
-    section.header>section.menuTop{
+    section.header > section.menuTop {
         width: 100%;
         height: 50px;
-        background-color:#00a2e8;
+        background-color: #00a2e8;
         display: flex;
     }
-    section.header>section.menuTop>section:nth-of-type(1){
+
+    section.header > section.menuTop > section:nth-of-type(1) {
         width: 30%;
         height: inherit;
         display: flex;
         align-items: center;
         text-align: center;
     }
-    section.header>section.menuTop>section:nth-of-type(1)>div:nth-of-type(1){
+
+    section.header > section.menuTop > section:nth-of-type(1) > div:nth-of-type(1) {
         width: 50%;
         height: inherit;
         line-height: 50px;
@@ -37,11 +42,12 @@
         color: white;
 
     }
-    section.header>section.menuTop>section:nth-of-type(1)>div:nth-of-type(1)>img{
-        vertical-align:sub;
+
+    section.header > section.menuTop > section:nth-of-type(1) > div:nth-of-type(1) > img {
+        vertical-align: sub;
     }
 
-    section.header>section.menuTop>section:nth-of-type(1)>div:nth-of-type(2){
+    section.header > section.menuTop > section:nth-of-type(1) > div:nth-of-type(2) {
         width: 60%;
         height: inherit;
         line-height: 50px;
@@ -50,12 +56,13 @@
 
     }
 
-        /*****  ENd  Header 1/2  ******/
-    section.header>section.menuTop>section:nth-of-type(2){
+    /*****  ENd  Header 1/2  ******/
+    section.header > section.menuTop > section:nth-of-type(2) {
         width: 70%;
         height: 50px;
     }
-    section.header>section.menuTop>section:nth-of-type(2)>ul{
+
+    section.header > section.menuTop > section:nth-of-type(2) > ul {
         list-style: none;
         width: 100%;
         height: inherit;
@@ -63,63 +70,75 @@
         justify-content: flex-end;
 
     }
-    section.header>section.menuTop>section:nth-of-type(2)>ul>li{
+
+    section.header > section.menuTop > section:nth-of-type(2) > ul > li {
         width: auto;
         height: auto;
         line-height: 50px;
         box-sizing: border-box;
         padding-left: 30px;
     }
-    section.header>section.menuTop>section:nth-of-type(2)>ul>li:nth-of-type(5){
+
+    section.header > section.menuTop > section:nth-of-type(2) > ul > li:nth-of-type(5) {
         margin-right: 170px;
     }
-    section.header>section.menuTop>section:nth-of-type(2)>ul>li>a{
+
+    section.header > section.menuTop > section:nth-of-type(2) > ul > li > a {
         cursor: pointer;
         color: #ffff;
         transition: all 200ms linear;
     }
-    section.header>section.menuTop>section:nth-of-type(2)>ul>li>a:hover{
+
+    section.header > section.menuTop > section:nth-of-type(2) > ul > li > a:hover {
         color: darkgray;
     }
+
     /*****  Start of  Header 2/2  ******   */
-    section.header>section.menuBottom{
+    section.header > section.menuBottom {
         width: 100%;
         height: 90px;
-        background-color:#ffff;
+        background-color: #ffff;
         display: flex;
     }
-    section.header>section.menuBottom>div:nth-of-type(1){
+
+    section.header > section.menuBottom > div:nth-of-type(1) {
         width: 20%;
         height: inherit;
         line-height: 90px;
         text-align: end;
     }
-    section.header>section.menuBottom>div:nth-of-type(1)>h1{
+
+    section.header > section.menuBottom > div:nth-of-type(1) > h1 {
         font-size: 30px;
         font-family: "Myriad Pro";
         color: black;
     }
-    section.header>section.menuBottom>div:nth-of-type(1)>h1::first-letter{
+
+    section.header > section.menuBottom > div:nth-of-type(1) > h1::first-letter {
         color: #00a2e8;
     }
-    section.header>section.menuBottom>div:nth-of-type(2){
+
+    section.header > section.menuBottom > div:nth-of-type(2) {
         width: 60%;
         height: inherit;
     }
-    section.header>section.menuBottom>div:nth-of-type(2)>nav{
+
+    section.header > section.menuBottom > div:nth-of-type(2) > nav {
         width: 100%;
         height: inherit;
     }
-    section.header>section.menuBottom>div:nth-of-type(2)>nav>ul{
+
+    section.header > section.menuBottom > div:nth-of-type(2) > nav > ul {
         width: 100%;
         height: 90px;
         list-style: none;
         display: flex;
         justify-content: center;
         box-sizing: border-box;
-        padding-left:125px;
+        padding-left: 125px;
     }
-    section.header>section.menuBottom>div:nth-of-type(2)>nav>ul>li{
+
+    section.header > section.menuBottom > div:nth-of-type(2) > nav > ul > li {
         width: auto;
         height: 90px;
         line-height: 45px;
@@ -128,7 +147,8 @@
         align-items: center;
         box-sizing: border-box;
     }
-    section.header>section.menuBottom>div:nth-of-type(2)>nav>ul>li>a{
+
+    section.header > section.menuBottom > div:nth-of-type(2) > nav > ul > li > a {
         display: block;
         height: 45px;
         width: auto;
@@ -137,53 +157,59 @@
         font-size: 14px;
         transition: all 200ms linear;
     }
-    section.header>section.menuBottom>div:nth-of-type(2)>nav>ul>li>a:hover{
+
+    section.header > section.menuBottom > div:nth-of-type(2) > nav > ul > li > a:hover {
         background-color: lightgray;
     }
-    section.header>section.menuBottom>div:nth-of-type(2)>nav>ul>li:nth-of-type(1)>a{
+
+    section.header > section.menuBottom > div:nth-of-type(2) > nav > ul > li:nth-of-type(1) > a {
         color: #00a2e8;
     }
-    section.header>section.menuBottom>div:nth-of-type(3){
+
+    section.header > section.menuBottom > div:nth-of-type(3) {
         width: 20%;
         height: inherit;
         display: flex;
     }
-    section.header>section.menuBottom>div:nth-of-type(3)>div:nth-of-type(1){
-       width:auto;
+
+    section.header > section.menuBottom > div:nth-of-type(3) > div:nth-of-type(1) {
+        width: auto;
         height: auto;
         line-height: 90px;
     }
-    section.header>section.menuBottom>div:nth-of-type(3)>div:nth-of-type(2){
-       width:auto;
+
+    section.header > section.menuBottom > div:nth-of-type(3) > div:nth-of-type(2) {
+        width: auto;
         height: auto;
         line-height: 99px;
-        margin-left:5px;
+        margin-left: 5px;
     }
-    section.header>section.menuBottom>div:nth-of-type(3)>div:nth-of-type(2)>img{
+
+    section.header > section.menuBottom > div:nth-of-type(3) > div:nth-of-type(2) > img {
         width: 25px;
         height: 25px;
     }
-        /**********  End of header 2/2    ************/
+
+    /**********  End of header 2/2    ************/
+    /********* Hidding menu bottom   ************/
+    input#open {
+        display: none;
+    }
+
+    label[for = open] {
+        display: none;
+    }
+
+    input#close {
+        display: none;
+    }
+
+    label[for = close] {
+        display: none;
+    }
 
     /********* Hidding menu bottom   ************/
-    input#open{
-        display: none;
-    }
-    label[for = open]{
-        display: none;
-    }
-    input#close{
-        display: none;
-    }
-    label[for = close]{
-        display: none;
-    }
-    /********* Hidding menu bottom   ************/
-
-
-
     /************************ end of header     ******************************************/
-
     /********************************** Start of Swiper    *****************************************/
     .swiper {
         width: 100%;
@@ -216,25 +242,238 @@
         height: 770px;
         object-fit: cover;
     }
-    div.RoSwipper1{
+
+    div.RoSwipper1 {
         width: 80%;
-        position:absolute;
+        position: absolute;
     }
-    div.RoSwipper1>span:nth-of-type(1){
+
+    div.RoSwipper1 > span:nth-of-type(1) {
         color: white;
         font-size: 72px;
     }
-    div.RoSwipper1>span>span.Are{
+
+    div.RoSwipper1 > span > span.Are {
         color: #00a2e8;
     }
-    div.RoSwipper1>span>span.best{
+
+    div.RoSwipper1 > span > span.best {
         color: #00a2e8;
     }
-    div.RoSwipper1>span:nth-of-type(2){
+
+    div.RoSwipper1 > span:nth-of-type(2) {
         font-size: 17px;
         line-height: 40px;
         color: white;
     }
-        /********************************** End of Swiper    *****************************************/
 
+    /********************************** End of Swiper    *****************************************/
+    /******************   Start of About us   ************************/
+    section.aboutUS {
+        width: 100%;
+        height: 170px;
+    }
+
+    section.aboutUS > h1 {
+        text-align: center;
+        line-height: 170px;
+        font-size: 72px;
+    }
+
+    section.aboutUS > h1 > span {
+        color: #00a2e8;
+    }
+
+    section.about {
+        width: 100%;
+        height: 365px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    section.about > div {
+        width: 20%;
+        height: auto;
+        padding-left: 10px;
+    }
+
+    section.about > div:nth-of-type(1) {
+        text-align: center;
+    }
+
+    section.about > div:nth-of-type(1) > span {
+        display: block;
+        font-size: 75px;
+        box-sizing: border-box;
+        padding-bottom: 35px;
+        color: #555252;
+        transition: all 300ms linear;
+
+    }
+
+    section.about > div:nth-of-type(1) > p {
+        box-sizing: border-box;
+        padding-top: 15px;
+        line-height: 25px;
+        color: #555252;
+    }
+
+
+    section.about > div:nth-of-type(1) > h3 {
+        color: #555252;
+        transition: all 300ms linear;
+
+
+    }
+
+    section.about > div:nth-of-type(2) {
+        text-align: center;
+        color: #555252;
+    }
+
+    section.about > div:nth-of-type(2) > span {
+        display: block;
+        font-size: 75px;
+        box-sizing: border-box;
+        padding-bottom: 35px;
+        transition: all 300ms linear;
+
+    }
+
+    section.about > div:nth-of-type(2) > h3 {
+        color: #555252;
+        transition: all 300ms linear;
+
+    }
+
+    section.about > div:nth-of-type(2) > p {
+        box-sizing: border-box;
+        padding-top: 15px;
+        line-height: 25px;
+        color: #555252;
+    }
+
+    section.about > div:nth-of-type(3) {
+        text-align: center;
+        color: #555252;
+    }
+
+    section.about > div:nth-of-type(3) > span {
+        display: block;
+        font-size: 75px;
+        box-sizing: border-box;
+        padding-bottom: 35px;
+        transition: all 300ms linear;
+
+    }
+
+    section.about > div:nth-of-type(3) > h3 {
+        color: #555252;
+        transition: all 300ms linear;
+
+    }
+
+    section.about > div:nth-of-type(3) > p {
+        box-sizing: border-box;
+        padding-top: 15px;
+        line-height: 25px;
+        color: #555252;
+    }
+
+    section.about > div:nth-of-type(4) {
+        text-align: center;
+        color: #555252;
+    }
+
+    section.about > div:nth-of-type(4) > span {
+        display: block;
+        font-size: 75px;
+        box-sizing: border-box;
+        padding-bottom: 35px;
+        transition: all 300ms linear;
+    }
+
+    section.about > div:nth-of-type(4) > h3 {
+        color: #555252;
+        transition: all 300ms linear;
+
+    }
+
+    section.about > div:nth-of-type(4) > p {
+        box-sizing: border-box;
+        padding-top: 15px;
+        line-height: 25px;
+        color: #555252;
+    }
+
+    section.about > div:nth-of-type(1) > span:hover, section.about > div:nth-of-type(2) > span:hover, section.about > div:nth-of-type(3) > span:hover, section.about > div:nth-of-type(4) > span:hover, section.about > div:nth-of-type(1) > h3:hover, section.about > div:nth-of-type(2) > h3:hover, section.about > div:nth-of-type(3) > h3:hover, section.about > div:nth-of-type(4) > h3:hover {
+        color: #00a2e8;
+        cursor: pointer;
+    }
+
+
+    /******************   End of About us   ************************/
+    /********************* Start zire about us   *************************/
+    section.matnZireAboutUs{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        text-align: center;
+        padding-top:60px;
+    }
+    section.matnZireAboutUs>h1{
+        font-size: 72px;
+    }
+    section.matnZireAboutUs>h1>span{
+        color: #00a2e8;
+    }
+    section.ZireAboutUs {
+        width: 100%;
+        height: 665px;
+        background-image: url("../../images/Zire-About_US.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    section.ZireAboutUs > h1 > span{
+        color: #00a2e8;
+    }
+    section.ZireAboutUs>div{
+        width: 20%;
+        height: 325px;
+        margin-left: 20px;
+        box-sizing: border-box;
+        background-color: #ffffff;
+        margin-top: 250px;
+        display: flex;
+        align-items: flex-end;
+    }
+    section.ZireAboutUs>div:nth-of-type(1)>div:nth-of-type(1),section.ZireAboutUs>div:nth-of-type(2)>div:nth-of-type(1),section.ZireAboutUs>div:nth-of-type(3)>div:nth-of-type(1),section.ZireAboutUs>div:nth-of-type(4)>div:nth-of-type(1){
+        width: 80%;
+        height:45px;
+        background-color:#35312e;
+    }
+    section.ZireAboutUs>div:nth-of-type(1)>div:nth-of-type(2),section.ZireAboutUs>div:nth-of-type(2)>div:nth-of-type(2),section.ZireAboutUs>div:nth-of-type(3)>div:nth-of-type(2),section.ZireAboutUs>div:nth-of-type(4)>div:nth-of-type(2){
+        width: 20%;
+        height: 45px;
+        background-color: #948a85;
+    }
+    section.ZireAboutUs>div:nth-of-type(1)>div:nth-of-type(1)>span,section.ZireAboutUs>div:nth-of-type(2)>div:nth-of-type(1)>span,section.ZireAboutUs>div:nth-of-type(3)>div:nth-of-type(1)>span,section.ZireAboutUs>div:nth-of-type(4)>div:nth-of-type(1)>span{
+        display: block;
+        color: #ffff;
+        font-size: 18px;
+        padding-left: 20px;
+        line-height: 45px;
+    }
+    section.ZireAboutUs>div:nth-of-type(1)>div:nth-of-type(2)>span,section.ZireAboutUs>div:nth-of-type(2)>div:nth-of-type(2)>span,section.ZireAboutUs>div:nth-of-type(3)>div:nth-of-type(2)>span,section.ZireAboutUs>div:nth-of-type(4)>div:nth-of-type(2)>span{
+        color: #ffff;
+        font-size: 18px;
+        display: block;
+        line-height: 45px;
+        text-align: center;
+    }
+        /********************* End zire about us   *************************/
 }
