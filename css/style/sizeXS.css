@@ -452,4 +452,30 @@
     /*}*/
     /********** End Hovering ********/
     /********************* End zire about us   *************************/
+    /******************** Start Of SaleUp    ******************************************/
+    section.sale{
+        width: 100%;
+        height:310px;
+        background-color: #00a2e8;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 4150px;
+    }
+    section.sale>div{
+        width: 75%;
+        height: auto;
+        color: white;
+        font-size: 60px;
+        text-align: center;
+        box-sizing: border-box;
+        padding-top: 100px;
+    }
+    section.sale>div>span{
+        text-transform: capitalize;
+        font-size:40px;
+    }
+
+    /******************** End Of SaleUp    ******************************************/
+
 }
