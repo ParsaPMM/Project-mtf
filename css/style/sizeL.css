@@ -658,6 +658,108 @@
     }
     /********* End Cus review  *********/
     /*********************************** End Customers rewie       *****************************/
+    /**********************  Start of ordering      ***********************************************/
+    section.order{
+        width: 100%;
+        height: 935px;
+        background-image: url("../../images/order-background.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color:#378cc4;
+    }
+    section.place{
+        width: 100%;
+        height:630px;
+        display: flex;
+        flex-direction: column;
+    }
+    section.place>div{
+        width: 100%;
+    }
+    section.place>div:nth-of-type(1)>h1{
+        font-size: 50px;
+        color:#56504d;
+        text-align: center;
+        padding-top: 75px;
+    }
+    section.place>div:nth-of-type(1)>h1>span{
+        color: #ffffff;
+    }
+    section.place>div:nth-of-type(2){
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    section.place>div:nth-of-type(2)>input{
+        display: block;
+        width: 545px;
+        height: 60px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background-color:rgba(255,255,255,0.7);
+    }
+    section.place>div:nth-of-type(3){
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    section.place>div:nth-of-type(3)>input{
+        display: block;
+        width: 545px;
+        height: 60px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background-color:rgba(255,255,255,0.9);
+    }
+    section.place>div:nth-of-type(4){
+        width: 100%;
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+    }
+    section.place>div:nth-of-type(4)>button{
+        display: block;
+        width:310px;
+        height:90px;
+        border-radius: 15px;
+        background-color:#786960;
+        font-size: 30px;
+        font-weight: 800;
+        color: white;
+        cursor: pointer;
+    }
+    /************** Start of improve   *************/
+    section.order>section.imp{
+        width: 100%;
+        height: 305px;
+        background-color: rgba(0,0,0,0.9);
+        display: flex;
+        flex-direction: column;
+    }
+    section.order>section.imp>div:nth-of-type(1){
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 88px;
+    }
+    section.order>section.imp>div:nth-of-type(1)>h1{
+        font-size: 60px;
+        color: white;
+    }
+    section.order>section.imp>div:nth-of-type(2){
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+    }
+    section.order>section.imp>div:nth-of-type(2)>h1{
+        font-size: 27px;
+        color: white;
+    }
+
+    /************** End of improve   *************/
+    /**********************  End of ordering      ***********************************************/
+
 
 
 
