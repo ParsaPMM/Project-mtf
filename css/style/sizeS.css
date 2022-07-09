@@ -889,6 +889,23 @@
         cursor: pointer;
     }
     /*********************************   End of footer    *************************************/
+    /*************************** Start of all rights      ********************************** */
+    section.all{
+        width: 100%;
+        height:60px;
+        background-color: black;
+        position: absolute;
+        top: 8700px;
+    }
+    section.all>h6{
+        color: white;
+        text-align: center;
+
+        padding-top: 40px;
+    }
+
+    /******************************** End of all rights    ********************************************/
+
 
 
 
